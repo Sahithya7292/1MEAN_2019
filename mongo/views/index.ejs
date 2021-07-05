@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <title>Employees</title>
+  <style>
+  body{
+	background-color:lightblue;
+  }
+  ul{
+	padding:10;
+	font-size:20px;
+  }
+  </style>
+</head>
+<body>
+  <h1>Employees Data Base</h1>
+  <ul>
+  <% for(var i=0; i<users.length; i++) {%>
+	<li>
+		<span>Employee ID: <%= users[i].empid %></span><br>
+		<span>Employee Name: <%= users[i].empname %></span><br>
+		<span>Employee Salary: <%= users[i].empsalary %></span><br>
+    </li><br>
+  <% } %>
+  </ul>
+  </body>
+  </html>
