@@ -1,0 +1,21 @@
+html {
+    font-size: 20px;
+  }
+  body{
+    background-color: rgb(162, 250, 135);
+    
+  }
+  ul{
+    list-style: none;
+  }
+  .quote {
+    margin-top: 0.5em;
+  }
+  
+  .quote > span:first-child {
+    font-weight: bold
+  }
+  
+  .quote > span:first-child:after {
+    content:':'
+  }
