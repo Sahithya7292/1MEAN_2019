@@ -1,0 +1,11 @@
+html {
+    font-size: 20px;
+  }
+  body{
+    background-color: lightpink;
+  }
+  .user {
+    margin-top: 0.5em;
+    font: 20px;
+  }
+  
