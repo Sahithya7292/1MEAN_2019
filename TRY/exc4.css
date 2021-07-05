@@ -1,0 +1,28 @@
+body{
+background-color:#92E28F;
+}
+/*#F1948A*/
+p.one{
+color:white;
+font-family:Edwardian Script ITC;
+text-align:center;
+font-size:100px;
+}
+p.two{
+color:white;
+font-family:Comic sans MS;
+font-size:30px;
+text-align:justify;
+}
+p.three{
+color:#2C3E50;
+font-family:Times New Roman;
+text-align:center;
+font-size:50px;
+}
+.responsive{
+width: 100%;
+height: auto;
+}
+
+
